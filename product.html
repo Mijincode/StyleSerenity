@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Style Serenity</title>
+  </head>
+
+  <body style="background-color: #F8E8EE;">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="./images/StyleSerenity.jpg"
+              alt="Logo"
+              class="img-fluid"
+              style="width: 360px; height: 200px;"/>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-3" href="#">Women</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-3" href="#">Men</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-3" href="#">Kids</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-3" href="#">Bag</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-3" href="#">Shoes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-3" href="#">Accessories/Jewelry</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <div class="input-group">
+                <a class="nav-link pe-0 ms-3 mr-2" href="#"
+                  ><i class="fas fa-search"></i
+                ></a>
+                <input type="text" class="form-control ms-2" placeholder="" />
+              </div>
+              <a class="nav-link ms-3 mr-2" href="#"
+                ><i class="fas fa-shopping-cart"></i
+              ></a>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+        <!-- product information -->
+        <main class="container mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                  <img src="./images/pexels-cottonbro-studio-5379073.jpg" alt="Product Name" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <h1>Ruffle Dress</h1>
+                    <p class="lead" style="margin-top: 50px;">Description: Elegant ruffle hem dress<br>
+                      <ul>
+                      <li>Color: White</li>
+                      <li>Style: Elegant</li>
+                      <li> Pattern Type: Plain</li>
+                      <li>Details: Tiered Layer, Ruched, Frill, Ruffle Hem</li>
+                      <li>Fabric: Non-Stretch</li>
+                      <li>Material: Woven Fabric</li>
+                  </ul></p>
+                    <p class="custom-lead">Price: $130</p>
+                   
+                    <!-- Additional product information-->
+                    <div class="container mt-5">
+                      <p>Product Measurements</p>
+                      <div class="table-responsive-sm">
+                        <table class="table table-bordered text-center">
+                          <thead class="table-light">
+                          <tr>
+                            <th scope="col">Size</th>
+                            <th scope="col">AU</th>
+                            <th scope="col">Bust</th>
+                            <th scope="col">Length</th>
+                          </tr>
+                        </thead>
+
+                        <tbody>
+                          <tr>
+                            <th scope="row">S</th>
+                            <td>8</td>
+                            <td>82</td>
+                            <td>141</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">M</th>
+                            <td>10</td>
+                            <td>86</td>
+                            <td>142</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">L</th>
+                            <td>12/14</td>
+                            <td>91</td>
+                            <td>143</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">XL</th>
+                            <td>16</td>
+                            <td>96</td>
+                            <td>144</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      </div>
+                    </div>
+
+                     <!-- color availability -->
+                      <div class="d-flex justify-content-between align-items-center mt-3 mb-3">
+                        <div class="form-group">
+                        </div>
+                        <div class="form-group">
+                          <label for="colorSelect">Color</label>
+                          <select class="form-control" id="colorSelect">
+                               <option>White</option>
+                               <option>Red</option>
+                              <option>Green</option>
+                              <option>Pink</option>
+                              <option>Black</option>
+                          </select>
+                      </div>
+                      <!-- size availability -->
+                        <div class="form-group">
+                            <label for="sizeSelect">Size</label>
+                            <select class="form-control" id="sizeSelect">
+                                <option>6 (XS)</option>
+                                <option>8 (S)</option>
+                                <option>10 (M)</option>
+                                <option>12/14 (L)</option>
+                                <option>16 (XL)</option>
+                            </select>
+                        </div>
+
+                        <!-- Quantity/stock availability -->
+                      <div class="form-group">
+                           <label for="quantitySelect">Quantity</label>
+                           <select class="form-control" id="quantitySelect">
+                                <option>1</option>
+                                <option>2</option>
+                               <option>3</option>
+                               <option>4</option>
+                               <option>5</option>
+                               <option>6</option>
+                               <option>7</option>
+                               <option>8</option>
+                               <option>9</option>
+                               <option>10</option>
+                           </select>
+                       </div>
+                <!-- Add to Cart Button -->
+                       <a href="#" class="btn btn-primary">
+                        <i class="fas fa-shopping-cart"></i> Add to Cart
+                        </a>
+                     </div>
+                     <p class="font-weight-bold">
+                      Stock Availability: <span class="text-success">In Stock (20)</span>
+                    </p><span><p class="stock-availability">Based on size and quantity selected.</p></span>
+
+             </div>
+            </div>
+        </main>
+
+
+<!-- Product Reviews -->
+<div class="card">
+  <div class="card-header">
+      Reviews
+  </div>
+        <div class="card-body">
+            <div class="review">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <h6 class="review-name">Susan</h6>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="review-date text-md-end"> 17 January, 2023</p>
+                    </div>
+                </div>
+                <p class="review-comment">This dress is so flattering. I love it!!</p>
+            </div>
+            <div class="review">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <h6 class="review-name">Jenny</h6>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="review-date text-md-end">29 May, 2023</p>
+                    </div>
+                </div>
+                <p class="review-comment">Absolutely gorgeous! I can wear this dress for my wedding photoshoot. Thank you, Style Serenity!</p>
+            </div>
+
+      <a href="#" class="btn text-white btn-info mt-3">Write a review</a>
+     
+  </div>
+</div>
+<div class="row mt-5"></div>
+  <footer>
+    <div class="card text-center">
+      <div class="card-header">About Us</div>
+      <div class="card-body">
+        <div class="mb-3">
+          <a href="/Company Founders/" class="me-3">Company Founders</a>
+          <a href="/Investor Information/" class="me-3">Investor Information</a>
+          <a href="/Contact Us/" class="me-3">Contact Us</a>
+        </div>
+      </div>
+      <div class="card-footer text-muted">&copy; Style Serenity</div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</div>
+  </body>
+</html>

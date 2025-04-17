@@ -1,0 +1,82 @@
+.fa-solid .fa-cart-shopping {
+  font-size: 24px;
+  padding: 5px;
+  margin-right: 20px;
+}
+
+.search-icon {
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  color: #ccc;
+}
+
+.custom-image {
+  max-width: 100%; 
+  height: auto"
+}
+.navbar-nav .nav-link {
+  margin-right: 0px;
+  font-size: 19px;
+  text-decoration: none;
+}
+
+.stock-availability {
+  font-weight: 100;
+}
+
+h1 {
+  font-weight: normal;
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+header {
+  background-color: #f8f8f8;
+  text-align: center;
+  padding: 20px;
+}
+
+.discounted-price {
+  color: #e74c3c;
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+.original-price {
+  color: #999;
+}
+
+.product-link {
+  position: relative;
+  display: inline-block;
+}
+
+.notify-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #e74c3c;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.custom-lead {
+  font-size: large;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.card-body a {
+  color: black;
+  text-decoration: none;
+}
+.review-date {
+  margin-left: 10px;
+}
