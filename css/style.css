@@ -12,16 +12,10 @@
 }
 
 .custom-image {
-<<<<<<< HEAD
   max-width: 100%;
   height: auto;
 }
 
-=======
-  max-width: 100%; 
-  height: auto"
-}
->>>>>>> 2af31a3b7a431acaa11bc079835b2582e0b3703d
 .navbar-nav .nav-link {
   margin-right: 0px;
   font-size: 19px;
@@ -59,16 +53,13 @@ header {
   display: inline-block;
 }
 
-<<<<<<< HEAD
-.product-img {
+<<<<<<< HEAD .product-img {
   width: 100%;
   height: 250px;
   object-fit: cover;
 }
 
-=======
->>>>>>> 2af31a3b7a431acaa11bc079835b2582e0b3703d
-.notify-badge {
+=======>>>>>>>2af31a3b7a431acaa11bc079835b2582b3703d .notify-badge {
   position: absolute;
   top: 10px;
   left: 10px;
